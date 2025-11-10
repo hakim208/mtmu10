@@ -42,7 +42,7 @@ export default function Activities() {
     },
     {
       id: 2,
-      title: "Бозиҳои Варзишӣ",
+      title: "Бозиҳои варзишӣ",
       description: "Бозиҳои футбол, волейбол, баскетбол ва дигар навъҳои варзиш. Дастаҳои варзишии мактаби мо дар мусобиқаҳои шаҳрӣ ва вилоятӣ иштирок мекунанд.",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       details: "Қаҳрамонони шаҳр дар футбол (2023), ҷои дуввум дар волейбол (2022)",
@@ -53,7 +53,7 @@ export default function Activities() {
     },
     {
       id: 3,
-      title: "Чорабиниҳои Фарҳангӣ",
+      title: "Чорабиниҳои фарҳангӣ",
       description: "Консертҳо, намоишномаҳо ва чорабиниҳои иҷтимоӣ. Ҳар моҳ чорабиниҳои гуногун барои тарбияи эҳсоси ватандӯстӣ ва ҳифзи анъанаҳо баргузор мешавад.",
       image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       details: "Консерти байналмиллалӣ, намоиши \"Рӯзҳои фарҳангӣ\", ҷашни Наврӯз",
@@ -93,7 +93,7 @@ export default function Activities() {
     <section id="activities" className="py-20 px-4 md:px-8 border-b border-gray-200 relative bg-gradient-to-b from-white to-orange-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4">
-          Чорабиниҳои Мактаб
+          Чорабиниҳо
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
         </h2>
 

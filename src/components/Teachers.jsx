@@ -119,7 +119,7 @@ export default function Teachers() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4"
         >
-          Муаллимони Мо
+          Муаллимони мо
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-28 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
         </motion.h2>
 

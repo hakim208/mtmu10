@@ -9,8 +9,8 @@ export default function Footer() {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-yellow-400"></span>
             </h3>
             <div className="space-y-2 text-orange-100">
-              <p>📍 Адрес: шаҳри Душанбе, кӯчаи Мирзо Турсунзода</p>
-              <p>📞 Телефон: +992 123 456 789</p>
+              <p>📍 Адрес: шаҳри Душанбе, И.Сомонӣ кӯчаи С.Носир 35.</p>
+              <p>📞 Телефон: +992 372 24 41 70</p>
               <p>✉️ Email: maktab10@example.com</p>
             </div>
           </div>
@@ -21,9 +21,8 @@ export default function Footer() {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-yellow-400"></span>
             </h3>
             <div className="space-y-2 text-orange-100">
-              <p>🕗 Душанбе - Ҷумъа: 8:00 - 17:00</p>
-              <p>🕐 Шанбе: 8:00 - 14:00</p>
-              <p>🔴 Якшанбе: рӯзи истироҳат</p>
+              <p>🕗 Душанбе - Шанбе: 8:00 - 18:10</p>
+              <p>🔴 Якшанбе: Рӯзи истироҳати</p>
             </div>
           </div>
 
@@ -33,7 +32,7 @@ export default function Footer() {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-yellow-400"></span>
             </h3>
             <div className="space-y-2">
-              {['Асосӣ', 'Фаъолиятҳо', 'Муаллимон'].map((link) => (
+              {['Асосӣ', 'Фаъолиятҳо', 'Омӯзгорон'].map((link) => (
                 <a
                   key={link}
                   href={`#${link.toLowerCase().replace('ҳо', '')}`}
@@ -47,7 +46,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-orange-700 mt-8 pt-8 text-center text-orange-200">
-          <p>&copy; 2024 Мактаби миёнаи умумии №10. Ҳамаи ҳуқуқҳо ҳифз шудаанд.</p>
+          <p>&copy; 2024 Муассисаи таҳсилоти миёнаи умумии №10. Ҳамаи ҳуқуқҳо ҳифз шудаанд.</p>
         </div>
       </div>
     </footer>

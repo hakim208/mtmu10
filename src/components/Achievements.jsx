@@ -1,9 +1,9 @@
 export default function Achievements() {
   const achievements = [
     {
-      title: 'Беҳтарин мактаби сол',
+      title: 'Беҳтарин муассисаи сол',
       year: '2023',
-      description: 'Беҳтарин мактаби сол дар ноҳияи Исмоили Сомонӣ',
+      description: 'Беҳтарин муассисаи сол дар ноҳияи Исмоили Сомонӣ',
       image: 'https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
     },
     {
@@ -13,7 +13,7 @@ export default function Achievements() {
       image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
     },
     {
-      title: 'Мактаби намунаи ҷумҳурӣ',
+      title: 'Муассисаи намунаи ҷумҳурӣ',
       year: '2021',
       description: 'Ҷоизадори мақоми мактаби намунаи ҷумҳурӣ',
       image: 'https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
@@ -32,12 +32,12 @@ export default function Achievements() {
 
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4">
-          Ифтихороти Мактаб
+          Ифтихори мо
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
         </h2>
 
         <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-          Дар давоми фаъолияти тӯлонии худ, мактаби мо ҳамеша дар ҷадвалҳои ифтихорӣ ҷойгир будааст
+          Дар давоми фаъолияти тӯлонии худ, муассисаи мо ҳамеша дар ҷадвалҳои ифтихорӣ ҷойгир будааст
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -46,9 +46,9 @@ export default function Achievements() {
             <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 border-l-4 border-orange-500">
               <h3 className="text-2xl font-bold text-orange-800 mb-4">Дастовардҳои Бузург</h3>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Мактаби миёнаи умумии №10 тӯли <span className="font-semibold text-orange-600">78 сол </span>
+              Муассисаи миёнаи умумии №10 тӯли <span className="font-semibold text-orange-600">78 сол </span>
                 фаъолияти пурсамар дар соҳаи таҳсилоти сифатӣ дорад. Мо бо ифтихор эълон мекунем, ки
-                <span className="font-semibold text-orange-600"> 16400 нафар</span> хонандагон аз ин мактаб
+                <span className="font-semibold text-orange-600"> 16400 нафар</span> хонандагон аз ин муассиса
                 хатм карда, дар соҳаҳои гуногуни ҷамъият фаъолият мекунанд.
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function Achievements() {
             </div>
             <div>
               <div className="text-4xl font-black mb-2">56</div>
-              <div className="text-orange-100 font-semibold">Муаллимон</div>
+              <div className="text-orange-100 font-semibold">Омӯзгорон</div>
             </div>
           </div>
         </div>

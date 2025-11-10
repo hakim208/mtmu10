@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Мактаби №10 - Душанбе",
   description: "МУАССИСАИ ТАҲСИЛОТИ МИЁНАИ УМУМӢ №10 НОҬИЯИ ИСМОИЛИ СОМОНИ ШАҲРИ ДУШАНБЕ",
+  icons: {
+    icon: 'https://www.maorif.tj/img/gerbtjk.png',
+  },
 };
 
 export default function RootLayout({ children }) {
