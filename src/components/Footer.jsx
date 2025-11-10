@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-gradient-to-r from-orange-800 to-orange-900 text-white py-12 mt-16">
+    <footer id="contact" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
@@ -8,7 +8,7 @@ export default function Footer() {
               Тамос
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-yellow-400"></span>
             </h3>
-            <div className="space-y-2 text-orange-100">
+            <div className="space-y-2 text-blue-100">
               <p>📍 Адрес: шаҳри Душанбе, И.Сомонӣ кӯчаи С.Носир 35.</p>
               <p>📞 Телефон: +992 372 24 41 70</p>
               <p>✉️ Email: maktab10@example.com</p>
@@ -20,7 +20,7 @@ export default function Footer() {
               Соатҳои корӣ
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-yellow-400"></span>
             </h3>
-            <div className="space-y-2 text-orange-100">
+            <div className="space-y-2 text-blue-100">
               <p>🕗 Душанбе - Шанбе: 8:00 - 18:10</p>
               <p>🔴 Якшанбе: Рӯзи истироҳати</p>
             </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                 <a
                   key={link}
                   href={`#${link.toLowerCase().replace('ҳо', '')}`}
-                  className="block text-orange-100 hover:text-yellow-400 transition-colors duration-200"
+                  className="block text-blue-100 hover:text-yellow-400 transition-colors duration-200"
                 >
                   {link}
                 </a>
@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-orange-700 mt-8 pt-8 text-center text-orange-200">
+        <div className="border-t border-blue-700 mt-8 pt-8 text-center text-blue-200">
           <p>&copy; 2024 Муассисаи таҳсилоти миёнаи умумии №10. Ҳамаи ҳуқуқҳо ҳифз шудаанд.</p>
         </div>
       </div>

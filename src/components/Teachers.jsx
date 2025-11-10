@@ -106,9 +106,9 @@ export default function Teachers() {
   ];
 
   return (
-    <section id="teachers" className="py-20 px-4 md:px-8 relative bg-gradient-to-b from-orange-50 via-white to-orange-100">
+    <section id="teachers" className="py-20 px-4 md:px-8 relative bg-gradient-to-b from-blue-50 via-white to-blue-100">
       {/* Линияи боло */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-500 via-orange-400 to-orange-600"></div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600"></div>
 
       <div className="max-w-6xl mx-auto">
         {/* Сарлавҳа */}
@@ -117,10 +117,10 @@ export default function Teachers() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4"
+          className="text-4xl md:text-5xl font-bold text-blue-800 text-center mb-4 relative pb-4"
         >
           Муаллимони мо
-          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-28 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-28 h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full"></span>
         </motion.h2>
 
         <motion.p
@@ -143,23 +143,23 @@ export default function Teachers() {
               transition={{ duration: 0.6, delay: index * 0.15 }}
               viewport={{ once: true }}
               onClick={() => setSelectedTeacher(teacher)}
-              className="cursor-pointer relative bg-white rounded-2xl shadow-lg border border-orange-100 overflow-hidden group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+              className="cursor-pointer relative bg-white rounded-2xl shadow-lg border border-blue-100 overflow-hidden group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
             >
               <div className="p-6 text-center">
                 <motion.img
                   whileHover={{ scale: 1.05 }}
                   src={teacher.image}
                   alt={teacher.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-orange-500 shadow-lg object-cover"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500 shadow-lg object-cover"
                 />
-                <h3 className="text-lg font-bold text-orange-800 mb-1">{teacher.name}</h3>
-                <p className="text-orange-600 font-semibold text-sm mb-2">{teacher.subject}</p>
+                <h3 className="text-lg font-bold text-blue-800 mb-1">{teacher.name}</h3>
+                <p className="text-blue-600 font-semibold text-sm mb-2">{teacher.subject}</p>
                 <p className="text-green-600 font-medium text-xs">{teacher.degree}</p>
                 <p className="text-gray-600 text-xs mt-1">{teacher.experience}</p>
 
                 {/* Тугмаи маълумоти бештар */}
                 <div className="mt-4">
-                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-xs font-semibold">
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs font-semibold">
                     Маълумоти бештар
                   </span>
                 </div>
@@ -201,7 +201,7 @@ export default function Teachers() {
 
               <div className={`flex ${isMobile ? "flex-col" : "flex-row"}`}>
                 {/* Таҳи тасвир ва маълумоти асосӣ */}
-                <div className={`${isMobile ? "w-full" : "w-2/5"} bg-gradient-to-br from-orange-500 to-orange-600 p-6 text-white`}>
+                <div className={`${isMobile ? "w-full" : "w-2/5"} mb-[40px] bg-gradient-to-br from-blue-500 to-blue-600 p-6 text-white`}>
                   <div className="text-center">
                     <img
                       src={selectedTeacher.image}
@@ -256,7 +256,7 @@ export default function Teachers() {
                   <div>
                     <div className="flex items-center gap-2 mb-3">
                       <School sx={{ color: "orange", fontSize: 24 }} />
-                      <h4 className="text-lg font-semibold text-orange-700">Малакаҳо</h4>
+                      <h4 className="text-lg font-semibold text-blue-700">Малакаҳо</h4>
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {selectedTeacher.skills.map((skill, index) => (

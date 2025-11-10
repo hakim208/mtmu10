@@ -28,12 +28,12 @@ export default function Achievements() {
 
   return (
     <section id="achievements" className="py-16 px-4 md:px-8 border-b border-gray-200 relative">
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-500 via-orange-400 to-orange-600"></div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-blue-400 to-blue-600"></div>
 
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-800 text-center mb-4 relative pb-4">
           Ифтихори мо
-          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full"></span>
         </h2>
 
         <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
@@ -43,31 +43,31 @@ export default function Achievements() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 border-l-4 border-orange-500">
-              <h3 className="text-2xl font-bold text-orange-800 mb-4">Дастовардҳои Бузург</h3>
+            <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 border-l-4 border-blue-500">
+              <h3 className="text-2xl font-bold text-blue-800 mb-4">Дастовардҳои Бузург</h3>
               <p className="text-gray-700 text-lg leading-relaxed">
-              Муассисаи миёнаи умумии №10 тӯли <span className="font-semibold text-orange-600">78 сол </span>
+              Муассисаи миёнаи умумии №10 тӯли <span className="font-semibold text-blue-600">78 сол </span>
                 фаъолияти пурсамар дар соҳаи таҳсилоти сифатӣ дорад. Мо бо ифтихор эълон мекунем, ки
-                <span className="font-semibold text-orange-600"> 16400 нафар</span> хонандагон аз ин муассиса
+                <span className="font-semibold text-blue-600"> 16400 нафар</span> хонандагон аз ин муассиса
                 хатм карда, дар соҳаҳои гуногуни ҷамъият фаъолият мекунанд.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-orange-100">
-                <div className="text-3xl font-black text-orange-600 mb-2">50+</div>
+              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-blue-100">
+                <div className="text-3xl font-black text-blue-600 mb-2">50+</div>
                 <div className="text-gray-600 font-semibold">Ғолибони олимпиада</div>
               </div>
-              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-orange-100">
-                <div className="text-3xl font-black text-orange-600 mb-2">25+</div>
+              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-blue-100">
+                <div className="text-3xl font-black text-blue-600 mb-2">25+</div>
                 <div className="text-gray-600 font-semibold">Ҷоизаҳои байналмиллалӣ</div>
               </div>
-              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-orange-100">
-                <div className="text-3xl font-black text-orange-600 mb-2">15</div>
+              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-blue-100">
+                <div className="text-3xl font-black text-blue-600 mb-2">15</div>
                 <div className="text-gray-600 font-semibold">Соли пайдарпаҳи сифатӣ</div>
               </div>
-              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-orange-100">
-                <div className="text-3xl font-black text-orange-600 mb-2">100%</div>
+              <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-blue-100">
+                <div className="text-3xl font-black text-blue-600 mb-2">100%</div>
                 <div className="text-gray-600 font-semibold">Хатмкунандагони донишҷӯ</div>
               </div>
             </div>
@@ -86,13 +86,13 @@ export default function Achievements() {
                     alt={achievement.title}
                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
-                  <div className="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {achievement.year}
                   </div>
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-orange-800 mb-2">{achievement.title}</h3>
+                  <h3 className="text-xl font-bold text-blue-800 mb-2">{achievement.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{achievement.description}</p>
                 </div>
               </div>
@@ -101,23 +101,23 @@ export default function Achievements() {
         </div>
 
         {/* Additional Stats */}
-        <div className="mt-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white">
+        <div className="mt-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-8 text-white">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-black mb-2">78+</div>
-              <div className="text-orange-100 font-semibold">Соли таърих</div>
+              <div className="text-blue-100 font-semibold">Соли таърих</div>
             </div>
             <div>
               <div className="text-4xl font-black mb-2">16400+</div>
-              <div className="text-orange-100 font-semibold">Хатмкунанда</div>
+              <div className="text-blue-100 font-semibold">Хатмкунанда</div>
             </div>
             <div>
               <div className="text-4xl font-black mb-2">150+</div>
-              <div className="text-orange-100 font-semibold">Ҷоизадорон</div>
+              <div className="text-blue-100 font-semibold">Ҷоизадорон</div>
             </div>
             <div>
               <div className="text-4xl font-black mb-2">56</div>
-              <div className="text-orange-100 font-semibold">Омӯзгорон</div>
+              <div className="text-blue-100 font-semibold">Омӯзгорон</div>
             </div>
           </div>
         </div>

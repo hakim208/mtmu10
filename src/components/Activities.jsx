@@ -92,9 +92,9 @@ export default function Activities() {
   return (
     <section id="activities" className="py-20 px-4 md:px-8 border-b border-gray-200 relative bg-gradient-to-b from-white to-orange-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-orange-800 text-center mb-4 relative pb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-800 text-center mb-4 relative pb-4">
           Чорабиниҳо
-          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></span>
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full"></span>
         </h2>
 
         <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
@@ -118,14 +118,14 @@ export default function Activities() {
               </div>
 
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-orange-700 mb-3 tracking-wide">
+                <h3 className="text-xl font-bold text-blue-700 mb-3 tracking-wide">
                   {activity.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed line-clamp-3">
                   {activity.description}
                 </p>
                 <div className="mt-4">
-                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">
                     Маълумоти бештар
                   </span>
                 </div>
@@ -219,7 +219,7 @@ export default function Activities() {
             {/* Таҳи маълумот */}
             <div className="w-1/2 h-full bg-white p-8 overflow-y-auto">
               <div className="mb-6">
-                <h3 className="text-3xl font-bold text-orange-700 mb-4">
+                <h3 className="text-3xl font-bold text-blue-700 mb-4">
                   {activity.title}
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -227,7 +227,7 @@ export default function Activities() {
                 </p>
 
                 {activity.details && (
-                  <div className="bg-orange-50 rounded-xl p-4 border-l-4 border-orange-500">
+                  <div className="bg-blue-50 rounded-xl p-4 border-l-4 border-orange-500">
                     <h4 className="font-semibold text-orange-800 mb-2">Дастовардҳо ва ҷараёнҳо:</h4>
                     <p className="text-gray-600">{activity.details}</p>
                   </div>
